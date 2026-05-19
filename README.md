@@ -4,23 +4,24 @@ A small SDL2-based reaction minigame where players must press the correct key (W
 
 ## 🕹️ Features
 
-- 🎮 Interactive main menu and restart system (mouse-controlled)
-- 💡 Game states: `MENU`, `PLAYING`, `PAUSED`, `VICTORY`, `GAME_OVER`
-- ⏱️ Countdown timer (30 seconds)
-- 💖 Heart-based life system (3 lives)
-- ✅ Random target key generator (W, A, S, D)
-- 📈 Score-based victory condition (reach 100 points)
-- 🐭 Mouse events to control UI buttons
+* 🎮 Interactive main menu and restart system (mouse-controlled)
+* 💡 Game states: `MENU`, `PLAYING`, `PAUSED`, `VICTORY`, `GAME_OVER`
+* ⏱️ Countdown timer (30 seconds)
+* 💖 Heart-based life system (3 lives)
+* ✅ Random target key generator (W, A, S, D)
+* 📈 Score-based victory condition (reach 100 points)
+* 🐭 Mouse events to control UI buttons
 
 ## 📁 Folder Structure
 
+```text
 CollectEmAllMinigame/
 ├── assets/
-│ ├── font.ttf
-│ └── heart.png
+│   ├── font.ttf
+│   └── heart.png
 ├── main.cpp
 ├── README.md
-└── .gitignore (optional)
+└── .gitignore
 
 
 ## 🧰 Requirements
